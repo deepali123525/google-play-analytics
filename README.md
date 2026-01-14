@@ -85,10 +85,14 @@ How to Run the Project
 Clone the repository
 
 Install required libraries
+
 pip install pandas numpy plotly pytz
 
+
 Run the Python file
+
 python tasks.py
+
 
 Run the file during the correct time window to view each graph
 
