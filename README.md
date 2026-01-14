@@ -9,15 +9,19 @@ I have used the same dataset that was provided during training and extended it f
 
 Datasets Used
 
+
 Play Store Data.csv
+
 This dataset contains information about apps such as app name, category, rating, reviews, installs, size, price, Android version, and last updated date.
 
 User Reviews.csv
+
 This dataset contains user reviews along with sentiment polarity and sentiment subjectivity values.
 
 Both datasets were cleaned and merged wherever required.
 
 Tools and Libraries Used
+
 
 Python
 Pandas
@@ -27,6 +31,7 @@ Datetime
 Pytz
 
 Tasks Completed
+
 
 Task 1 Grouped Bar Chart
 In this task, I created a grouped bar chart to compare average rating and total reviews for top app categories after applying required filters.
@@ -62,10 +67,12 @@ Category names were translated into different languages in the legend.
 This graph is visible only between 4 PM and 6 PM IST.
 
 Time Based Logic
+
 Each visualization is designed to appear only during a specific time window in IST.
 If the code is run outside the allowed time range, the graph is not displayed and a message is shown instead.
 
 How to Run the Project
+
 
 Clone the repository
 
