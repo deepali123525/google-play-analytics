@@ -1,6 +1,7 @@
 Google Play Store Data Analysis Project
 
 About This Project
+
 This project was done as part of my Data Analytics Internship.
 The main goal of this project is to analyze Google Play Store app data using Python and create different visualizations based on given conditions.
 
