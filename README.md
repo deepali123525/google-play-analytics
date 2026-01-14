@@ -24,11 +24,17 @@ Tools and Libraries Used
 
 
 Python
+
 Pandas
+
 NumPy
+
 Plotly
+
 Datetime
+
 Pytz
+
 
 Tasks Completed
 
@@ -69,7 +75,9 @@ This graph is visible only between 4 PM and 6 PM IST.
 Time Based Logic
 
 Each visualization is designed to appear only during a specific time window in IST.
+
 If the code is run outside the allowed time range, the graph is not displayed and a message is shown instead.
+
 
 How to Run the Project
 
@@ -87,8 +95,8 @@ Run the file during the correct time window to view each graph
 Notes
 
 All tasks are implemented using the same dataset as required by the internship guidelines.
-The code is written in a simple and readable way with proper comments.
 
+The code is written in a simple and readable way with proper comments.
 Author
 
 Deepali Srivastava
