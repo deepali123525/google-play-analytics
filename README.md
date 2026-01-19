@@ -1,106 +1,86 @@
-Google Play Store Data Analysis Project
-
-About This Project
-
-This project was done as part of my Data Analytics Internship.
-The main goal of this project is to analyze Google Play Store app data using Python and create different visualizations based on given conditions.
-
-I have used the same dataset that was provided during training and extended it further to complete all internship tasks.
-
-Datasets Used
-
-
-Play Store Data.csv
-
-This dataset contains information about apps such as app name, category, rating, reviews, installs, size, price, Android version, and last updated date.
-
-User Reviews.csv
-
-This dataset contains user reviews along with sentiment polarity and sentiment subjectivity values.
-
-Both datasets were cleaned and merged wherever required.
-
-Tools and Libraries Used
-
-
-Python
-
+                       Google Play Store Data Analysis – Internship Project
+# Project Overview
+The project belongs to my Data Analytics Internship and is aimed at analyzing the data of applications in the Google Play Store with the help of Python and Plotly.
+The aim is to clean raw data, use business-oriented filters and create interactive and time-based dashboards, which will provide significant data about app performance, user interaction, and market trends.
+ # Dataset Used
+Play_Store_Data.csv – App-level metadata (ratings, installs, category, size, price, etc.)
+User_Reviews.csv – User sentiment and subjectivity data
+ # Tools & Technologies
+Python 3.11
 Pandas
-
 NumPy
+Plotly (Graph Objects & Express)
+Jupyter Notebook
+# Data Cleaning & Preprocessing
+Converted ratings, reviews, installs, and prices into numeric format
+Standardized app sizes into MB
+Parsed date columns into datetime format
+Removed invalid, missing, and inconsistent values
+# Tasks & Visualizations
+Task 1: Grouped Bar Chart
+Average Rating vs Total Reviews (Top 10 Categories)
+Filters based on rating, size, and update month
+Compares quality vs engagement across categories
+ Visible between 3 PM – 5 PM IST
+Task 2: Choropleth Map
+Global Installs by Top 5 App Categories
+Displays installs geographically using country mapping
+Excludes categories starting with A, C, G, S
+Highlights categories with installs > 1 million
+ Visible between 6 PM – 8 PM IST
+ Task 3 : Dual Axis Chart
+Average Installs vs Revenue (Free vs Paid Apps)
+Dual-axis comparison of installs and revenue
+Advanced filtering on size, revenue, Android version
+Visible between 1 PM – 2 PM IST
+Task 4: Time Series Line Chart
+Total Installs Trend Over Time (Category Wise)
+Monthly aggregation of installs
+Category translation for multilingual display
+Month-over-month growth analysis
+Visible between 6 PM – 9 PM IST
+Task 5: Bubble Chart
+App Size vs Rating
+Bubble size represents installs
+Filters include rating, reviews, sentiment, and category
+Category names translated for global readability
+Visible between 5 PM – 7 PM IST
+Task 6: Stacked Area Chart
+Cumulative App Installs Over Time
+Shows long-term growth trends
+Cumulative installs and MoM growth
+Multi-language category labels
+Visible between 4 PM – 6 PM IST
+# Key Learnings
+Real-world data cleaning techniques
+Advanced filtering and grouping logic
+Interactive visualization using Plotly
+Time-based dashboard control
+Data storytelling and reporting
+# Challenges Faced
+Handling inconsistent data formats
+Debugging Plotly dataframe mismatch errors
+Managing multiple task-specific dataframes
+# Solutions:
+Careful dataframe isolation, debugging prints, and structured preprocessing.
+# Project Structure
+Copy code
 
-Plotly
+# Internship_Project
+│── task.ipynb
+│── Play_Store_Data.csv
+│── User_Reviews.csv
+│── README.md
 
-Datetime
+# Conclusion
+This project shows that I am capable of doing end-to-end data analysis, including cleaning raw data and professional dashboard development. The assignments are related to real-life analysis and reinforce my data analysis base.
 
-Pytz
-
-
-Tasks Completed
-
-
-Task 1 Grouped Bar Chart
-In this task, I created a grouped bar chart to compare average rating and total reviews for top app categories after applying required filters.
-This graph is visible only between 3 PM and 5 PM IST.
-
-Task 2 Category Based Visualization
-In this task, app installs were analyzed for the top categories after excluding specific category names.
-Categories with installs greater than 1 million were highlighted.
-This graph is visible only between 6 PM and 8 PM IST.
-
-Task 3 Dual Axis Chart Free vs Paid Apps
-This task compares average installs and average revenue for free and paid apps.
-Multiple conditions such as installs, revenue, Android version, app size, content rating, and app name length were applied.
-This graph is visible only between 1 PM and 2 PM IST.
-
-Task 4 Time Series Analysis
-This task shows the trend of total installs over time for selected app categories.
-Some category names were translated into different languages for display.
-The chart helps in identifying growth trends over months.
-This graph is visible only between 6 PM and 9 PM IST.
-
-Task 5 Bubble Chart
-In this task, a bubble chart was used to analyze the relationship between app size and average rating.
-Bubble size represents the number of installs.
-Sentiment subjectivity from user reviews was also considered.
-The Game category was highlighted using a different color.
-This graph is visible only between 5 PM and 7 PM IST.
-
-Task 6 Stacked Area Chart
-This task visualizes cumulative installs over time using a stacked area chart.
-Only high rated apps and selected categories were included.
-Category names were translated into different languages in the legend.
-This graph is visible only between 4 PM and 6 PM IST.
-
-Time Based Logic
-
-Each visualization is designed to appear only during a specific time window in IST.
-
-If the code is run outside the allowed time range, the graph is not displayed and a message is shown instead.
-
-
-How to Run the Project
-
-
-Clone the repository
-
-Install required libraries
-
-pip install pandas numpy plotly pytz
-
-
-Run the Python file
-
-python tasks.py
-
-
-Run the file during the correct time window to view each graph
-
-Notes
+# Notes
 
 All tasks are implemented using the same dataset as required by the internship guidelines.
 
 The code is written in a simple and readable way with proper comments.
+
 
 
 Author
@@ -108,3 +88,4 @@ Author
 Deepali Srivastava
 
 Data Analytics Intern
+
