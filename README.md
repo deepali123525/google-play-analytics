@@ -67,10 +67,17 @@ Careful dataframe isolation, debugging prints, and structured preprocessing.
 Copy code
 
 # Internship_Project
-│── task.ipynb
-│── Play_Store_Data.csv
-│── User_Reviews.csv
-│── README.md
+├─ data
+│   ├─ Play_Store_Data.csv
+│   └─ User_Reviews (1).csv
+│
+├─ notebooks
+│   └─ project.ipynb
+│
+├─ Internship_Report
+│   └─ Internship_Report_Deepali_Srivastava.pdf
+│
+├─ README.md
 
 # Conclusion
 This project shows that I am capable of doing end-to-end data analysis, including cleaning raw data and professional dashboard development. The assignments are related to real-life analysis and reinforce my data analysis base.
@@ -81,11 +88,10 @@ All tasks are implemented using the same dataset as required by the internship g
 
 The code is written in a simple and readable way with proper comments.
 
-
-
-Author
+# Author
 
 Deepali Srivastava
 
 Data Analytics Intern
+
 
