@@ -56,7 +56,7 @@ This project was completed as part of my Data Analytics Internship and focuses o
 ## Challenges Faced
 - Inconsistent data formats
 - Plotly DataFrame mismatch errors
-- 
+  
 ## Internship_Project
 ├─ data
 │   ├─ Play_Store_Data.csv
@@ -77,6 +77,7 @@ This project demonstrates end-to-end data analytics capabilities and real-world 
 Deepali Srivastava
 
 Data Analytics Intern
+
 
 
 
